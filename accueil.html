@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <div id="heads"></div>
+    <title>Image Draggable avec QR Code</title>
+</head>
+<body>
+    <div id="header"></div>
+    
+    <h2>Image Draggable avec QR Code</h2>
+    <p>Déplacez l'image avec votre souris.</p>
+    
+    <div class="container">
+        <img id="draggable" src="files/img/formulaire.jpeg" alt="Image draggable">
+        <button class="download-btn" onclick="downloadImage()">Télécharger l'image</button>
+    </div>
+    <button class="download-btn">
+        <a href="files/docs/formulaire.pdf" download="formulaire.pdf" style="text-decoration: none; color: inherit;">Télécharger le PDF</a>
+    </button>
+    
+    <p style="margin-top: 10vw;">Scannez le QR code ci-dessous :</p>
+    <div class="qr-code">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.helloasso.com/associations/camino-limerick/evenements/soiree-st-patrick-repas-festif-irlandais" alt="QR Code">
+    </div>
+    
+    <p><a href="https://www.helloasso.com/associations/camino-limerick/evenements/soiree-st-patrick-repas-festif-irlandais" target="_blank">Lien vers le site</a></p>
+    <div class="container">
+        <p style="margin-top: 3vw;" class="entoure"><a href="https://www.ottrott.fr/Agenda" target="_blank">Lien vers le site D'Ottrot</a></p>
+        
+    </div>
+    
+    <div id="footer"></div>
+    
+    <script src="js/scripts_communs.js"></script>
+</body>
+</html>

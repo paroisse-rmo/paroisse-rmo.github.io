@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+img {
+  width: 30vw;
+  cursor: grab;
+}
+.download-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.entoure {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #add5e1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.qr-code {
+  margin-top: 20px;
+}
+
+
+
+
+
+/* Header & Footer * /
+
+/* Styles du header */
+header {
+  background-color: #288350;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #FFD700; /* Doré au survol */
+}
+
+/* Styles du footer */
+footer {
+  background-color: #342d22;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
